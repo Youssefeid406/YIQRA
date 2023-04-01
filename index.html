@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="utf-8">
+  <title>IQRA</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img1/bismillah.png" rel="icon">
+  <link href="img1/bismillah.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Reveal
+    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  
+  <style>
+     
+    .titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 50px;
+    color: #50d8af;
+    line-height: 55px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+}
+ul.location_icon {
+     padding-top: 12px;
+}
+
+ul.location_icon li {
+     display: inline-block;
+     font-size: 18px;
+     line-height: 20px;
+     color: #fff;
+     padding-left: 62px;
+}
+
+ul.location_icon li a {
+     font-size: 30px;
+     color: white;
+     line-height: 30px;
+     padding-right: 15px;
+}
+
+ul.location_icon li a:hover {
+     color: white;
+}
+.main_form {
+     padding: 50px 0px 0px 0px;
+}
+
+.main_form .contactus {
+     border: inherit;
+     padding: 0px 15px;
+     margin-bottom: 20px;
+     width: 100%;
+     height: 60px;
+     background: transparent;
+     color: white;
+     font-size: 18px;
+     font-weight: normal;
+     border-bottom: #ddd solid 1px;
+}
+
+.main_form .textarea {
+     border: inherit;
+     padding: 0px 15px;
+     margin-bottom: 20px;
+     width: 100%;
+     background: transparent;
+     color: white;
+     font-size: 18px;
+     font-weight: normal;
+     border-bottom: white solid 1px;
+     padding-top: 30px;
+}
+
+.main_form .send_btn {
+     font-size: 17px;
+     transition: ease-in all 0.5s;
+     background-color: #fff;
+     color: #50d8af;
+     padding: 13px 0px;
+     max-width: 200px;
+     width: 100%;
+     display: block;
+     margin-top: 30px;
+     border-radius: 30px;
+}
+
+.main_form .send_btn:hover {
+     background-color: #50d8af;
+     transition: ease-in all 0.5s;
+     color: #fff;
+}
+
+#request *::placeholder {
+     color: white;
+     opacity: 1;
+}
+ul.social_icon {
+     padding-top: 37px;
+}
+
+ul.social_icon li {
+     display: inline-block;
+}
+
+ul.social_icon li a {
+     background: #fff;
+     width: 45px;
+     height: 45px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 25px;
+     border-radius: 30px;
+     margin: 0 3px;
+}
+
+ul.social_icon li a:hover {
+     background-color: #0808ff;
+     color: #fff;
+}
+
+.map {
+     padding-top: 60px;
+}
+
+.map figure {
+     margin: 0;
+}
+
+.map figure img {
+     width: 100%;
+}
+
+.bottom_form {
+     padding-top: 29px;
+}
+
+.bottom_form h3 {
+     font-weight: 600;
+     font-size: 20px;
+     text-align: left;
+     color: #fff;
+     padding-bottom: 15px;
+}
+
+.bottom_form .enter {
+     border: inherit;
+     padding: 0px 19px;
+     width: 62%;
+     height: 53px;
+     background: #fff;
+     color: white;
+     font-size: 18px;
+     font-weight: 600;
+     float: left;
+}
+
+
+
+
+.footer {
+     background: #50d8af;
+     padding-top: 85px;
+     text-align: center;
+}
+
+.footer .titlepage {
+     text-align: left;
+     padding-bottom: 0px;
+}
+
+.footer .titlepage h2 {
+     color: white;
+}
+
+
+
+
+
+
+
+
+
+.blu{
+  color: #50d8af;
+}
+    .about {
+    background :white;
+   
+    padding: 90px 0;
+}
+
+.about .titlepage {
+    text-align: right;
+    padding: 0;
+    max-width: 541px;
+    width: 100%;
+    float: left;
+}
+
+.about .titlepage h2 {
+    margin-bottom: 20px;
+}
+
+.about .titlepage p {
+    color: #030303;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.about .titlepage .read_more:hover {
+    color: red;
+}
+
+.about_img {
+    max-width: 600px;
+    width: 100%;
+    float: right;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+}
+.about_img {
+    margin-bottom: 20px;
+}
+    @font-face {
+  font-family: andlso;
+  src: url(andlso.ttf);
+}
+
+p,h2,h1,h3,h4,div,a,span,li,ul {
+  font-family:andlso;
+}
+
+  </style>
+</head>
+
+<body id="body">
+
+  <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+       
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto"><img src="img1/bismillah.png" alt="image"><span>IQRA</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-has-children"><a href="#body">QUR'AN</a>
+          <ul>
+            <li><a href="R1.html">Reciters</a></li>
+           
+            <li><a href="IQRA.html">Chapters of the Qur'ran</a></li>
+           
+          </ul>
+        </li>
+          <li class="menu-has-children"><a href="#services">ANASHEED</a>
+          <ul>
+            <li><a href="M.html">Munishidin</a></li>
+          </ul></li>
+          <li class="menu-has-children"><a href="prayers.html">PRAYERS</a>
+          
+        </li>
+
+          <!--<li class="menu-has-children"><a href="">CONTACT</a>-->
+           
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+ 
+  <section id="intro">
+
+    <!--<div class="intro-content">
+      <h2>Making <span>your ideas</span><br>happen!</h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+      </div>
+    </div>-->
+
+    <div id="intro-carousel" class="owl-carousel" >
+      <div class="item" style="background-image: url('intro-carousel/1.png');"></div>
+      <div class="item" style="background-image: url('intro-carousel/2.jpg');"></div>
+      <div class="item" style="background-image: url('intro-carousel/3.jpg');"></div>
+      <div class="item" style="background-image: url('intro-carousel/4.jpg');"></div>
+      <div class="item" style="background-image: url('intro-carousel/5.jpg');"></div>
+    </div>
+
+  </section><!-- #intro -->
+
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Reciters of Holy Quran</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><a href="sheikhs/Sheikhs.html"><img src="img1/2.jfif" alt=""></a></div>
+              <div class="details">
+                <h4>Mishary Rashid Alafasy</h4>
+                <h4>مشاري بن راشد العفاسي </h4>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 ">
+            <div class="member">
+              <div class="pic"><img src="img1/3.jpg" alt=""></div>
+              <div class="details">
+                <h4>Abdulbasit Abdusamad</h4>
+                <h4>عبد الباسط عبد الصم</h4>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/4.jpg" alt=""></div>
+              <div class="details">
+                <h4>
+                  Islam Sobhi</h4>
+                <h4> اسلام صبحي</h4>
+                  
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/1.jpg" alt=""></div>
+              <div class="details">
+                <h4>AbdulRahman AlSudais</h4>
+                <h4>عبد الرحمن السديس</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/5.jpg" alt=""></div>
+              <div class="details">
+                <h4>Saad El Ghamidi </h4>
+               <h4>سعد الغامدي</h4> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/6.jfif" alt=""></div>
+              <div class="details">
+
+                <h4>Fares Abbad </h4>
+               <h4>فارس عباد</h4>
+                  
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/7.jpg" alt=""></div>
+              <div class="details">
+
+                <h4>Abu Bakr Al Shatri  </h4>
+               <h4>أبو بكر الشاطري</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img1/8.png" alt=""></div>
+              <div class="details">
+
+                <h4>Maher Al Mueaqly </h4>
+               <h4>ماهر المعيقلي</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #team -->
+<section>
+     <!-- about -->
+     <div id="about"  class="about">
+      <div class="container-fluid">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="about_img">
+                  <figure><img src="img1/ab.png" alt="#"/></figure>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="titlepage">
+                  <h1 class="blu"><strong>About us</strong> </h1>
+                  <p>welcome to <span class="blu"><strong>IQRA</strong></span>, our site is a guide and an ideal companion for any muslim in his daily spiritual life. We offer through our pages the Quran recited by several reciters from different countries with different methods of reading. You will also find lessons (Dourous) listed in series of several Muslim preachers in the Arab world which deal different themes. In addition, we propose an Anashid section that includes several religious songs in different languages.
+                    Finally, to answer questions that anyone can ask about the pillars of Islam and the major themes related to it, we offer several items carefully written hoping illuminate your lanterns!</p>
+                 
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+  </section>
+   <!-- end about -->
+  
+   <div id="contact">
+    <div class="footer">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-4">
+                <div class="titlepage">
+                   <h2>Contact Us</h2>
+                </div>
+             </div>
+             <div class="col-md-8">
+                <ul class="location_icon">
+                   <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Tripoli</li>
+                   <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>(+961)03214276</li>
+                   <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>youssefeid406@gmail.com</li>
+                </ul>
+             </div>
+             <div class="col-md-6">
+                <form id="request" class="main_form">
+                   <div class="row">
+                      <div class="col-md-12 ">
+                         <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                      </div>
+                      <div class="col-md-12">
+                         <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                      </div>
+                      <div class="col-md-12">
+                         <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                      </div>
+                      <div class="col-md-12">
+                         <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                      </div>
+                      <div class="col-sm-col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                         <button class="send_btn">Send</button>
+                      </div>
+                     
+                </form>
+             </div>
+            
+                <div class="map">
+                   
+                </div>
+               
+             </div>
+          </div>
+       </div>
+    
+ </div>
+      
+     
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Razer</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+        -->
+        Designed by <a href="https://youssefeid406@gmail.com/">youssefeid</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
