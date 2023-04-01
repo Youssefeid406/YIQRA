@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>سورة الفَاتِحَة</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  
+  <!-- Favicons -->
+  <link href="img1/bismillah.png" rel="icon">
+  <link href="img1/bismillah.png" rel="apple-touch-icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+  
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/demo.css1" />
+       <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+
+  <!-- =======================================================
+    Theme Name: Reveal
+    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  <style>
+ 
+
+#t{
+  position: absolute;
+  top:50%;
+  left:90%;
+}
+    @font-face {
+  font-family: andlso;
+  src: url(andlso.ttf);
+}
+
+p,h2,h1,h3,h4,div,a,span,li,ul {
+  font-family:andlso;
+  
+}
+.content{
+  font-size: 30px;
+}
+
+
+
+.qr{
+  position: absolute;
+  left:50%;
+  width:350px;
+}
+/** audio player styles **/
+#audio-player, #audio-player div, #audio-player h2, #audio-player a, #audio-player span, #audio-player button {
+ 
+ border: none;
+
+}
+
+div #audio-player {
+ position: relative;
+ width: 420px;
+ height: 70px;
+
+ background: #4c4e5a;
+ background: -webkit-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ background: -moz-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ background: -o-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ background: -ms-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+}
+#audio-player h2 {
+ position: absolute;
+ top: 7px;
+ left: 10px;
+
+ font-weight: bold;
+ font-size: 16px;
+ color:  #EAC95A;
+ text-shadow: 1px 1px 1px #50d8af;
+}
+
+/* play/pause control */
+.mejs-controls .mejs-button button {
+ cursor: pointer;
+ display: block;
+ position: absolute;
+ text-indent: -9999px;
+}
+
+.mejs-controls .mejs-play button, .mejs-controls .mejs-pause button {
+ width: 34px;
+ height: 34px;
+ top: 32px;
+ left: 7px;
+ background: transparent url('css/playpause.png') 0 0 no-repeat;
+}
+.mejs-controls .mejs-pause button { background-position: 0 -35px; }
+
+
+/* mute/unmute control */
+.mejs-controls .mejs-mute button, .mejs-controls .mejs-unmute button {
+ width: 18px;
+ height: 19px;
+ top: 9px;
+ right: 142px;
+ background: transparent url('css/audio.png') 0 0;
+}
+.mejs-controls .mejs-unmute button { background-position: 0 -19px; }
+
+
+/* volume scrubber bar */
+.mejs-controls div.mejs-horizontal-volume-slider {
+ position: absolute;
+ top: 13px;
+ right: 15px;
+ cursor: pointer;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+ width: 120px;
+ height: 11px;
+ background: #212227;
+ -webkit-box-shadow: inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);
+ -moz-box-shadow: inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);
+ box-shadow: inset 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.25);
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+ position: absolute;
+ width: 0;
+ height: 9px;
+ top: 1px;
+ left: 1px;
+ background: #50d8af;
+ background: -webkit-linear-gradient(top, #50d8af 0%, #50d8af 100%);
+ background: -moz-linear-gradient(top, #50d8af 0%, #50d8af 100%);
+ background: -o-linear-gradient(top, #50d8af 0%, #50d8af 100%);
+ background: -ms-linear-gradient(top, #50d8af 0%, #50d8af 100%);
+ background: linear-gradient(top, #50d8af 0%, #50d8af 100%);
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+}
+
+
+/* time scrubber bar */
+.mejs-controls div.mejs-time-rail { width: 380px; }
+
+.mejs-controls .mejs-time-rail span {
+ position: absolute;
+ display: block;
+ width: 380px;
+ height: 12px;
+ top: 40px;
+ left: 55px;
+ cursor: pointer;
+ -webkit-border-radius: 0px 0px 2px 2px;
+ -moz-border-radius: 0px 0px 2px 2px;
+ border-radius: 0px 0px 2px 2px;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total { 
+ background: #EAC95A; 
+ width: 270px !important; /* fixes display bug using jQuery 1.8+ */
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+ top: 0;
+ left: 0;
+ width: 0;
+ background: #50d8af;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+ top: 0;
+ left: 0;
+ width: 0;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ background: #EAC95A ;
+ background: -webkit-linear-gradient(top,  #50d8af #EAC95A 0%,  100%);
+ background: -moz-linear-gradient(top, #50d8af #EAC95A 0%,  100%);
+ background: -o-linear-gradient(top, #50d8af #EAC95A 0%,  100%);
+ background: -ms-linear-gradient(top,  #50d8af #EAC95A 0%,  100%);
+ background: linear-gradient(top, #50d8af #EAC95A 0%,  100%);
+}
+
+/* metallic sliders */
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+ position: absolute;
+ display: block;
+ width: 20px;
+ height: 22px;
+ top: -6px;
+ background: url('css/handle-lg.png') no-repeat;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+ position: absolute;
+ display: block;
+ width: 12px;
+ height: 14px;
+ top: -1px;
+ background: url('css/handle-sm.png') no-repeat;
+}
+
+
+/* time progress tooltip */
+.mejs-controls .mejs-time-rail .mejs-time-float {
+ position: absolute;
+ display: none;
+ width: 33px;
+ height: 23px;
+ top: -26px;
+ margin-left: -17px;
+ z-index: 9999;
+ background: url('css/time-box.png');
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+ width: 33px;
+ display: block;
+ left: 0;
+ top: 4px;
+
+ font-size: 10px;
+ font-weight: bold;
+ color: #666;
+ text-align: center;
+ z-index: 9999;
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+#vision{
+  color:#50d8af;
+  font-family:andlso;
+  font-size: 20px;
+}
+
+
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #50d8af;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+
+#kro img{
+  position: relative;
+  width: 400px;
+  height: 390%;
+}
+.btn{
+  background-color: #50d8af;
+}
+.btn:hover{
+  background-color:#EAC95A ;
+
+
+}
+body{
+  background-color: #50d8af;
+}
+#y img{
+  width: 100px;
+  height: 390px;
+}
+.breadcrumb{
+  background-color: white;
+  color: #50d8af;
+}
+  </style>
+</head>
+
+<body id="body">
+
+  <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+       
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="index.html" class="scrollto"><img src="img1/bismillah.png" alt="image"><span>IQRA</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-has-children"><a href="#QUR'AN">QUR'AN</a>
+          <ul>
+            <li><a href="R1.html">Reciters</a></li>
+           
+            <li><a href="IQRA.html">Chapters of the Qur'ran</a></li>
+           
+          </ul>
+        </li>
+          <li class="menu-has-children"><a href="#services">ANASHEED</a>
+          <ul>
+            <li><a href="M.html">Munishidin</a></li>
+          </ul></li>
+          <li class="menu-has-children"><a href="#portfolio">PRAYERS</a>
+          
+        </li>
+
+          <!--<li class="menu-has-children"><a href="">CONTACT</a>-->
+           
+          <li><a href="index.html">CONTACT</a></li>
+          <li><a href="index.html">ABOUT</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+  
+<br/><br/><br/><br/><br/>
+
+
+<div class="container">
+<div class="main-body">
+
+
+
+<div class="row gutters-sm">
+<div class="col-md-4 mb-3">
+<div class="card">
+<div class="card-body">
+<div class="d-flex flex-column align-items-center text-center">
+<img src="1/a.png" alt="Admin" class="rounded-circle" width="150">
+<div class="mt-3">
+<h4>AlFaatiha</h4>
+
+<nav aria-label="breadcrumb" class="main-breadcrumb">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="sheikhs/Sheikhs.html">Previous</a></li>
+  <li class="breadcrumb-item"><a href="T2.html">Next</a></li>
+  </ol>
+  </nav>
+
+</div>
+</div>
+</div>
+</div>
+<div class="card mt-3">
+<ul class="list-group list-group-flush">
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+
+<h6 class="mb-0">The Opening </h6>
+<span class="text-secondary">الأسم بالأنجليزي</span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+    <h6 class="mb-0">29 </h6>
+<span class="text-secondary">عدد الكلمات في سورة الفاتحة</span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0">7</h6>
+<span class="text-secondary">عدد آيات سورة الفاتحة </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0">139</h6>
+<span class="text-secondary"> عدد الاحرف في سورة الفاتحة</span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+<h6 class="mb-0">مكية</h6>
+<span class="text-secondary"> النزول</span>
+</li>
+</ul>
+
+</div>
+</div>
+
+
+<div class="col-md-8">
+<div class="card mb-3">
+<div class="card-body">
+<div class="row">
+<div class="col-sm-3">
+   
+<h3 class="mb-0">
+  <img id="y" src="1/1.png"  style="max-width:730px;">
+</h3>
+<hr>
+<div class="row">
+<div class="col-sm-12">
+  
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+<div class="row gutters-sm">
+<div class="col-sm-6 mb-3">
+
+        <div id="audio-player">
+          <h2> الفَاتِحَة</h2> 
+        
+          <img id="t" src="img/download.png">
+         <audio class="audio-player" src="mishary-rashid-alafasy-001-al-fatiha-30-7477.mp3" type="audio/mp3" controls="controls"></audio> 
+         </audio>
+          </div><!-- @end .audio-player --><br/>
+          
+          
+        </div>
+      </div>
+          </div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+
+
+
+</style>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+
+</script>
+</body>
+</html>
+   
+    
+           
+                    
+               
+
+</section>
+
+  
+
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function() {
+        $('.audio-player').mediaelementplayer({
+            alwaysShowControls: true,
+            features: ['playpause','volume','progress'],
+            audioVolume: 'horizontal',
+            audioWidth: 400,
+            audioHeight: 120
+        });
+    });
+</script>
+</body>
+</html>
